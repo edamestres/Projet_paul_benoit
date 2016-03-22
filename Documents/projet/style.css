@@ -1,0 +1,45 @@
+p {
+    text-align: center
+}
+
+#nav 
+{
+	max-width: 800:600px;
+   margin:0;
+   padding:0;
+}
+ 
+#nav li 
+{
+   display:inline;
+   padding:0;
+   margin:0;
+}
+{
+#nav ul 
+display: inline;
+}
+#nav a:link, #nav a:visited 
+{
+   color:#000;
+   background:#FFFFFF;
+}
+function maBoucle(){
+	setTimeout(function()
+		alert('Bonjour !'); //Affichera "Bonjour !" toutes les secondes
+		maBoucle(); //Relance la fonction
+}, 1000);
+
+maBoucle(); //On oublie pas de lancer la fonction une première fois
+#carrousel {
+	position:relative;
+	height:200px;
+	width:700px;
+	margin:auto;
+}
+  
+#carrousel ul li {
+	position:absolute;
+	top:0;
+	left:0;
+}
